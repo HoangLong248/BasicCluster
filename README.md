@@ -11,3 +11,5 @@ vagrant up # start VMs
 vagrant halt # shutdown VMs
 vagrant destroy # Destroy VMs
 ```
+## Step-by-step setup cluster
+- Install ansible and clone repo kubespray on ansible-controller
