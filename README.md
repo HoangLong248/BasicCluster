@@ -1,4 +1,4 @@
 # BasicCluster
 
 ## Architecture
-![image description](diagram/Architecture.png)
+![image description](./diagram/Architecture.png)
