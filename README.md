@@ -7,7 +7,7 @@
 - 2 node worker RAM 1.5G
 
 ```
-vagrant up # start VMS
+vagrant up # start VMs
 vagrant halt # shutdown VMs
-vagrant destroy # Destroy VMS
+vagrant destroy # Destroy VMs
 ```
