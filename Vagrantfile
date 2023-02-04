@@ -1,6 +1,6 @@
 BOX_IMAGE = "centos/7"
-MEMORY_WORKER = "2048"
-MEMORY_MASTER = "1500"
+MEMORY_WORKER = "1500"
+MEMORY_MASTER = "2048"
 MEMORY_CONTROLLER = "2048"
 
 Vagrant.configure("2") do | config | 
@@ -36,6 +36,6 @@ Vagrant.configure("2") do | config |
     ansible_controller.vm.provider "virtualbox" do | vb |
       vb.memory = MEMORY_CONTROLLER
     end
-    ansible_controller.vm.provision :shell , :path => "scripts/install_python3.8.sh", :run => 'always'
+    # ansible_controller.vm.provision :shell , :path => "scripts/install_python3.8.sh", :run => 'always'
   end
 end
