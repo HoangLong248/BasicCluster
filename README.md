@@ -1,4 +1,4 @@
 # BasicCluster
 
 ## Architecture
-![image description](./diagram/Architecture.png)
+<img src="./diagram/Architecture.png" width="128"/>
