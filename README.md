@@ -14,7 +14,7 @@ vagrant destroy # Destroy VMs
 ## Step-by-step setup cluster
 - Install ansible and clone repo kubespray on ansible-controller
 ```
-Config inventory/mycluster/hosts.yaml after follow guide of kubespray before deploy cluster
+- Config inventory/mycluster/hosts.yaml after follow guide of kubespray before deploy cluster
 all:
   hosts:
     master1:
