@@ -47,3 +47,4 @@ all:
     calico_rr:
       hosts: {}
 ```
+https://mango-penguin-92f.notion.site/Quick-note-d952c51b03774b58aa715ecb8ed8cdac
