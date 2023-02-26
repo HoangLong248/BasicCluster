@@ -1,5 +1,5 @@
 BOX_IMAGE = "centos/7"
-MEMORY_WORKER = "1500"
+MEMORY_WORKER = "4028"
 MEMORY_MASTER = "2048"
 MEMORY_CONTROLLER = "2048"
 
@@ -10,12 +10,13 @@ Vagrant.configure("2") do | config |
   # config.vm.box_version = "5.0.0"
 
   # Worker
-  (1..2).each do | i |
+  (1..1).each do | i |
     config.vm.define "worker#{i}" do | worker |
       worker.vm.hostname = "worker#{i}"
       worker.vm.network :private_network, ip: "192.168.10.#{i + 20}"
       worker.vm.provider "virtualbox" do | vb |
         vb.memory = MEMORY_WORKER
+        vb.cpus = 2
       end
     end
   end
